@@ -1,12 +1,9 @@
-import logging
-import os
 from typing import Optional
 
 import click
 import safetensors.torch
 import torch
 import tqdm
-from transformers import AutoTokenizer
 
 from mergekit.architecture import get_architecture_info
 from mergekit.common import ModelReference, dtype_from_name
